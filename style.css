@@ -1,0 +1,136 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: url(	https://marketinghy.com/wp-content/uploads/2015/08/Background-header-for-landing-page.jpg);
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  color: #f9f4f4;
+  font-size: 36px;
+  text-shadow: 2px 2px 4px rgb(209, 204, 204);
+}
+header p{
+  color: #f2f2f2;
+}
+
+
+.registration {
+  background-color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
+
+.registration input[type="text"],
+.registration input[type="email"],
+.registration input[type="submit"] {
+  margin: 10px;
+  padding: 10px;
+  width: 250px;
+  border: none;
+  border-radius: 5px;
+}
+
+.registration input[type="submit"] {
+  background-color: #292727;
+  color: #ffffff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.registration:hover{
+  background-color: #d0deec;
+}
+
+.registration input[type="submit"]:hover {
+  background-color: #555555;
+}
+
+.about {
+  background-color: #f2f2f2;
+  background: url(https://www.tapmi.edu.in/wp-content/uploads/2018/07/landing-page-background-810x442.jpg);
+  padding: 20px;
+  text-align: center;
+}
+
+.about h2 {
+  color: #555555;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.about p {
+  color: hsl(0, 2%, 10%);
+  line-height: 1.5;
+}
+/* ... existing CSS rules ... */
+
+.list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+.list-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.list-icon {
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+/* ... existing CSS rules ... */
+
+
+footer {
+  background-color: #333333;
+  color: #ffffff;
+  padding: 10px;
+  text-align: center;
+}
+/* ... Existing CSS rules ... */
+
+/* Style for the Contact section */
+.contact {
+  background-color: #f9f9f9;
+  padding: 40px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 30px;
+}
+
+.contact h2 {
+  color: #555555;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.contact p {
+  color: #1a1919;
+  font-size: 18px;
+  line-height: 1;
+}
+
+.contact-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.contact-details p {
+  margin-bottom: 10px;
+}
+
+/* ... Existing CSS rules ... */
